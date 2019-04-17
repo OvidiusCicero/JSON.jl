@@ -54,7 +54,7 @@ JSON.print(a::AbstractDict, indent)
 JSON.print(io::IO, a::AbstractDict, indent)
 ```
 
-Writes a JSON representation with newlines, and indentation if specified. Non-zero `indent` will be applied recursively to nested elements.
+Writes a JSON representation with newlines, and indentation if specified. Non-zero `indent` will be applied recursively to nested elements. `indent` is an integer giving the number of indenting spaces.
 
 
 ```julia
